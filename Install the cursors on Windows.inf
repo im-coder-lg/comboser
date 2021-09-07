@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur,
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"alternate_select.cur"
+"handwriting.cur"
+"help.cur"
+"link-select.cur"
+"move.cur"
+"normal_select.cur"
+"precision-select.cur"
+"resize_di_1.cur"
+"resize_di_2.cur"
+"resize_hor.cur"
+"resize_ver.cur"
+"IBeam.cur"
+"unavailable.cur"
+"Busy.ani"
+"Working_in_bg.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\macOS+AndroidMaterial+Breeze"
+SCHEME_NAME     = "Cursor Combination"
+pointer         = "normal_select.cur"
+help            = "help.cur"
+work            = "Working_in_bg.ani"
+busy            = "Busy.ani"
+cross           = "precision-select.cur"
+text            = "IBeam.cur"
+hand            = "handwriting.cur"
+unavailable     = "unavailable.cur"
+vert            = "resize_ver.cur"
+horz            = "resize_hor.cur"
+dgn1            = "resize_di_1.cur"
+dgn2            = "resize_di_2.cur"
+move            = "move.cur"
+alternate       = "alternate_select.cur"
+link            = "link-select.cur"
+
