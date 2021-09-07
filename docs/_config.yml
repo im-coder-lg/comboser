@@ -1,24 +1,25 @@
-title: Your awesome title
+title: Comboser Docs
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: im-coder-lg
+  email: null
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Comboser docs on how to install it and configure it.
 
 show_excerpts: false # set to true to show excerpts on the homepage
+
+favicon: assets/favicon.ico
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
+  skin: dark
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    # devto: jekyll
+    # twitter: jekyllrb
+    github:  im-coder-lg
+    devto: coderlg
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
