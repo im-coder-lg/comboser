@@ -1,7 +1,10 @@
 # Comboser
 Ladies and Gentlemen, welcome to the (absurdly) cool repository of combination.
 
+![comboser](/preview of comboser.png)
+
 **Note**: It is worth noting that this repository is:
+
 1. a work in progress(some bugs here and there)
 2. <s>Mac OS and </s>Linux support not out yet(but will be :wink:)
 3. Use at your own risk.
