@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full
 
+RUN echo hello people
+
 # USER root
 
 # RUN apt-get update && apt update 
