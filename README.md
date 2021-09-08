@@ -1,7 +1,7 @@
 # Comboser
 Ladies and Gentlemen, welcome to the (absurdly) cool repository of combination.
 
-![comboser](/preview of comboser.png)
+![comboser](https://raw.githubusercontent.com/im-coder-lg/comboser/main/preview%20of%20comboser.png)
 
 **Note**: It is worth noting that this repository is:
 
