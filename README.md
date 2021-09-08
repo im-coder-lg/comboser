@@ -1,3 +1,4 @@
+[![Releaser](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml/badge.svg)](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml)
 # Comboser
 Ladies and Gentlemen, welcome to the (absurdly) cool repository of combination.
 
