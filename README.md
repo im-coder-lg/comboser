@@ -1,3 +1,4 @@
+[![Issue comments and project triage adding](https://github.com/im-coder-lg/comboser/actions/workflows/triager.yml/badge.svg)](https://github.com/im-coder-lg/comboser/actions/workflows/triager.yml)
 [![Releaser](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml/badge.svg)](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml)
 # Comboser
 Ladies and Gentlemen, welcome to the (absurdly) cool repository of combination.
