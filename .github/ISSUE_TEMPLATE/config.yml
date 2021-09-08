@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question
+    url: https://github.com/im-coder-lg/comboser/discussions/new
+    about: Ask the community for help on our GitHub Discussions board
+  - name: Chat on Gitter
+    about: Need immediate help or just want to talk? Join the Gitter!
+    url: https://gitter.im/im-coder-lg/comboser
