@@ -1,8 +1,11 @@
-# WIP
+# Comboser
 Ladies and Gentlemen, welcome to the (absurdly) cool repository of combination.
+
 **Note**: It is worth noting that this repository is:
-1. a work in progress
-2. Mac OS and Linux support not out yet(but will be :wink:)
+1. a work in progress(some bugs here and there)
+2. <s>Mac OS and </s>Linux support not out yet(but will be :wink:)
 3. Use at your own risk.
 
-If you are ready, this repository is a cursor combination of Mac OS Big Sur, KDE Breeze and Android Material Cursors(blue in color) and they are only for Windows. I am sorry, but I will figure out a method to make it available to macOS and Linux. Till then, if you wanna test this, you can download this repo and go to any of the folders, right-click on the `.inf` file and hitting `Install`. Only for Windows but I will figure it out.
+If you are ready, this repository is a cursor combination of Mac OS Big Sur, KDE Breeze and Android Material Cursors(blue in color) and they are only for Windows. I am sorry, but I will figure out a method to make it available to <s>macOS and </s>Linux. Till then, if you wanna test this, you can download this repo and go to any of the folders, right-click on the `.inf` file and hitting `Install`. Only for Windows but I will figure it out.
+
+**Note**: I can't add the cursors to macOS(hence the strikethrough) because macOS is closed-source. Nobody should meddle with macOS or any OS in the Apple ecosystem. So, I can't add this to macOS. But the present cursors are perfect. I mean, they are simple, soft, and cute. So I will add the guides only for Windows and Linux. I'm sorry.
