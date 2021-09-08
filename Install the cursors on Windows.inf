@@ -33,7 +33,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR         = "Cursors\macOS+AndroidMaterial+Breeze"
-SCHEME_NAME     = "Cursor Combination"
+SCHEME_NAME     = "Comboser"
 pointer         = "normal_select.cur"
 help            = "help.cur"
 work            = "Working_in_bg.ani"
