@@ -1,5 +1,5 @@
 [![Issue comments and project triage adding](https://github.com/im-coder-lg/comboser/actions/workflows/triager.yml/badge.svg)](https://github.com/im-coder-lg/comboser/actions/workflows/triager.yml)
-[![Releaser](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml/badge.svg)](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml)
+[![Releaser](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml/badge.svg)](https://github.com/im-coder-lg/comboser/actions/workflows/release.yml) [![Join the chat at https://gitter.im/im-coder-lg/comboser](https://badges.gitter.im/im-coder-lg/comboser.svg)](https://gitter.im/im-coder-lg/comboser?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 # Comboser
 Ladies and Gentlemen, welcome to the (absurdly) cool repository of combination.
 
