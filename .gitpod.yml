@@ -7,11 +7,13 @@ image:
 tasks:
     - name: Dependencies
       command: |
+          cd docs
           bundle install
           echo "Dependencies installed, starting server!"
           exit
     - name: server
       command: |
+          cd docs
           bundle exec jekyll serve
       
 
