@@ -7,11 +7,14 @@ image:
 tasks:
     - name: Dependencies
       command: |
+          touch /tmp/.dep-lock
           cd docs
           bundle install
           echo "Dependencies installed, starting server!"
+          rm /tmp/.dep-lock
           exit
     - name: server
+      init: sleep 1 && while [ -f /tmp/.dep-lock ]; do sleep 1; done
       command: |
           cd docs
           bundle exec jekyll serve
