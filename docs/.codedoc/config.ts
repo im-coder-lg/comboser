@@ -7,17 +7,23 @@ import { theme } from './theme';
 export const config = /*#__PURE__*/configuration({
   theme,                                  // --> add the theme. modify `./theme.ts` for changing the theme.
   dest: {
-    namespace: '/comboser'                // --> your github pages namespace. remove if you are using a custom domain.
+    namespace: '/docs'                // --> your github pages namespace. remove if you are using a custom domain.
   },
   page: {
     title: {
-      base: 'Comboser'                    // --> the base title of your doc pages
-    }
+      base: 'Comboser Docs',                    // --> the base title of your doc pages
+      
+    },
+    favicon: 'docs/assets/favicon.ico',
   },
+  
   misc: {
     github: {
       user: 'im-coder-lg',                // --> your github username (where your repo is hosted)
       repo: 'comboser',                   // --> your github repo name
+    },
+    gitter: {
+      room: 'im-coder-lg/comboser'
     }
   },
 });

@@ -1,12 +1,12 @@
-# Codedoc Boilerplate
+# Documentation for Comboser
 
-Modify `docs/md/index.md` to change the contents of this page. This will be your starting
-page on your GitHub Pages site.
+Welcome to the official Comboser docs! This will include setup guides for Windows and Linux.
 
-To get started, run `codedoc check` to see which configurations you most probably need to change,
-and get instructions on how to change them. Also don't forget to check the official docs of **CODEDOC**.
+**NOTE**: Since macOS is impossible to crack, I an not putting any guide for that. I'm sorry.
 
 > :Buttons
-> > :Button label=Official Docs, url=https://codedoc.cc
+> > :Button label=Visit the official site!, url=https://comboser.vercel.app
+>
+> > :Button label=GitHub Repository, url=https://github.com/im-coder-lg/comboser
 
 > :ToCPrevNext
