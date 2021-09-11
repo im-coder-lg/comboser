@@ -14,7 +14,7 @@ export const config = /*#__PURE__*/configuration({
       base: 'Comboser Docs',                    // --> the base title of your doc pages
       
     },
-    favicon: 'docs/assets/favicon.ico',
+    favicon: 'assets/favicon.ico',
   },
   
   misc: {
