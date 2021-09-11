@@ -5,19 +5,33 @@ image:
 # tasks for gitpod
 
 tasks:
-    - name: Dependencies
+    - name: Jekyll Dependencies
       command: |
           touch /tmp/.dep-lock
-          cd docs
+          cd site
           bundle install
           echo "Dependencies installed, starting server!"
           rm /tmp/.dep-lock
           exit
-    - name: server
+    - name: Jekyll server
+      init: sleep 1 && while [ -f /tmp/.dep-lock ]; do sleep 1; done
+      command: |
+          cd site
+          bundle exec jekyll serve
+
+    - name: CODEDOC Dependencies
+      init: touch /tmp/.npm-lock
+      command: |
+          cd docs
+          npm i -g @codedoc/cli
+          codedoc install
+          rm /tmp/.npm-lock
+
+    - name: CODEDOC Server
       init: sleep 1 && while [ -f /tmp/.dep-lock ]; do sleep 1; done
       command: |
           cd docs
-          bundle exec jekyll serve
+          codedoc serve
       
 
   # - name: ngrok SSH Tunnel
