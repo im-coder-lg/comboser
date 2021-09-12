@@ -1,1 +1,6 @@
 dupe/*
+docs/*.html
+docs/docs/*.html
+docs/docs/assets/*.js
+docs/docs/assets/*.json
+docs/docs/assets/*.css
