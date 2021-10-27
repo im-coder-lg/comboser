@@ -4,3 +4,9 @@ docs/docs/*.html
 docs/docs/assets/*.js
 docs/docs/assets/*.json
 docs/docs/assets/*.css
+
+# COmboser files
+
+comboser-*.zip
+
+linux/comboser-*.tar.xz
